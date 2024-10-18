@@ -1,0 +1,40 @@
+.bg-container{
+    background-image:linear-gradient(to right, #fa7257, #fc63a7);
+    background-size:cover;
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    padding:20px;
+}
+.heading{
+    color:#ffffff;
+    font-size:48px;
+    font-family:"Roboto";
+    font-weight:bold;
+}
+.btns{
+    color: #dd1264;
+    background-color:#ffffff;
+    width:150px;
+    height:40px;
+    border-width:0px;
+    border-radius:6px;
+    cursor:pointer;
+    font-family:"Roboto";
+    font-weight:700;
+    margin:20px;
+}
+.name-container{
+    background-color:#fddddb;
+    border-width:0px;
+    border-radius:8px;
+    padding:30px;
+    text-align:center;
+    margin:20px;
+}
+.items-container{
+    display:flex;
+    flex-direction:row;
+}
